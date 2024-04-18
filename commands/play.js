@@ -5,7 +5,7 @@ const db = require("../mongoDB");
 let selectedThumbnailURL;
 
 module.exports = {
-  name: "play",
+  name: "djplay",
   description: "come one let's hear some music!!",
   permissions: "0x0000000000000800",
   options: [{
