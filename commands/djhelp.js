@@ -17,6 +17,7 @@ module.exports = {
         .setTitle('🎸 **Music Commands**')
         .addFields(
           { name: '🎹 Play', value: 'Stream a song from a given link or text from sources' },
+          { name: '🔍 Search', value: 'Search for a song from via YouTube' },
           { name: '⏹️ Stop', value: 'Makes the bot stop playing music and leave the voice' },
           { name: '📊 Queue', value: 'View and manage the song queue of this server' },
           { name: '⏭️ Skip', value: 'Skip the current playing song' },
