@@ -6,17 +6,11 @@ module.exports = {
   permissions: "0x0000000000000800",
   options: [
     {
-      name: "play",
-      description: "Open music from other platforms.",
-      type: ApplicationCommandOptionType.Subcommand,
-      options: [
-        {
           name: "name",
-          description: "Type your song name & artist.",
+          description: "Stream music from other platforms. Enter URL or Type song name & artist. ",
           type: ApplicationCommandOptionType.String,
           required: true
-        }
-      ]
+      
     },
     {
       name: "playlist",
