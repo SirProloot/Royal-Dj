@@ -6,7 +6,7 @@ module.exports = {
   permissions: "0x0000000000000800",
   options: [
     {
-      name: "normal",
+      name: "play",
       description: "Open music from other platforms.",
       type: ApplicationCommandOptionType.Subcommand,
       options: [
