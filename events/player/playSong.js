@@ -14,7 +14,7 @@ module.exports = async (client, queue, song) => {
     .setDescription(`\n ‎ \n▶️ **Details :** **${song?.name}**\n▶️ **Enjoy your Music, with your favourite Discord Bot. ** \n▶️ **If link breaks playback try to give query.**`)
 .setImage(queue.songs[0].thumbnail)
     .setColor('#FF0000')
-    .setFooter({ text: 'More info - Use /help command [Royal Dj 📀]' });
+    .setFooter({ text: 'More info - Use /djhelp command [Royal Dj 📀]' });
      
       queue?.textChannel?.send({ embeds: [embed] }).catch(e => { });
     }
