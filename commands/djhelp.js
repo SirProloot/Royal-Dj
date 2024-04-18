@@ -5,7 +5,7 @@ const { EmbedBuilder, ActionRowBuilder, ButtonBuilder } = require('discord.js');
 const { ButtonStyle } = require('discord.js');
 
 module.exports = {
-  name: "help",
+  name: "djhelp",
   description: "Get information about bot and commands.",
   permissions: "0x0000000000000800",
   options: [],
